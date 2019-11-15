@@ -1,12 +1,12 @@
 <?php
-/*
+
 	$dataPath = getenv('DATA_PATH');
 	if ($dataPath == '') {
 		$dataPath=FRESHRSS_PATH . '/data';
 	}
-*/
 
-safe_define('DATA_PATH', '/FreshRSS-data');
+
+safe_define('DATA_PATH', $dataPath);
 safe_define('UPDATE_FILENAME', DATA_PATH . '/update.php');
 safe_define('USERS_PATH', DATA_PATH . '/users');
 safe_define('ADMIN_LOG', USERS_PATH . '/_/log.txt');

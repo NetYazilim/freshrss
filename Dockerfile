@@ -1,4 +1,4 @@
-FROM freshrss/freshrss:1.16.0-alpine
+FROM freshrss/freshrss:1.18.1-alpine
 LABEL maintainer "Levent SAGIROGLU <LSagiroglu@gmail.com>"
 
 VOLUME /shared
